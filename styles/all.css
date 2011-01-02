@@ -1,0 +1,261 @@
+ * {
+    border: 0px;
+    border-collapse: separate;
+    border-spacing: 0px;
+    font-size: 100%;
+    margin: 0px;
+    opacity: 0.9999;
+    padding: 0px;
+}
+
+body {
+    background: #000;
+    margin: 0;
+    padding: 40px 20px;
+    font: x-small "Trebuchet MS", Trebuchet, Verdana, Sans-Serif;
+    text-align: center;
+    color: #ccc;
+    font-size: small;
+    font-size: small;
+}
+
+a:link {
+    color: #9ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a7a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ad9;
+    text-decoration: underline;
+}
+
+a img {
+    border-width: 0;
+}
+
+/* Header
+ ----------------------------------------------- */
+@media all { #header {
+
+border-width:
+	0;
+
+height:
+	269px;
+
+margin-left:auto;
+
+margin-right:auto;
+
+width:
+	700px;
+}
+}
+@media handheld { #header {
+
+width:
+	90%;
+}
+}
+
+#abstract{
+	width:650px;
+	margin:10px auto 0;
+}
+
+/* Content
+ ----------------------------------------------- */
+@media all { 
+
+#content {
+	width:700px;
+	margin:2em auto;
+	padding: 10px 0;
+	text-align:left;
+    border-top: 1px dotted #333;
+} 
+
+#main {
+    width: 700px;
+    float: left;
+} 
+
+#plot{
+	width:460px;
+	float: left;
+	margin: 0 auto 40px;
+}
+#prePlotMatter, #pageLink{
+	width:700px;
+	margin:10px 0 0;
+	clear:both;
+	height:30px;
+	line-height:30px;
+}
+#pageLink{
+	margin-top:10px;
+}
+#j-vs-v{
+	width:460px;
+	height: 500px;
+	margin: 0;
+}
+
+#depvars {
+    width: 220px;
+    float: right;
+	margin: 60px 0 0 20px;
+}
+#overview-intro{
+	margin-top:30px;
+}
+#overview {
+	width: 120px;
+	height: 150px;
+	margin: 0 0 20px;
+}
+ul il {
+    list-style: inside;
+}
+.x-axis-label{
+	text-align:center;
+}
+.chart{
+	clear:both;
+}
+#band-diagrams{
+	width:700px;
+	clear:both;
+	margin:0;
+	height:330px;
+}
+#band-diagrams p{
+	margin-bottom:15px;
+}
+#zero-bias{
+	float:left;
+	clear:none;
+}
+#band-legend{
+	float:left;
+	margin-top:100px;
+}
+#full-bias{
+	float:right;
+	clear:none;
+}
+#zero-bias,#full-bias{
+	width:300px;
+}
+#band-zero-bias, #band-full-bias{
+	width:300px;
+	height:250px;
+	margin:0;
+}
+}
+@media handheld { #content {
+
+width:
+        90%;
+} #main {
+    width: 100%;
+    float: none;
+} #depvars {
+    width: 100%;
+    float: none;
+}
+}
+  /* Tables
+   * ------------------------------------------- */ 
+.variables{
+	width:100%;
+}
+.variables  td{
+   	text-align: center;
+	vertical-align: middle;
+}
+
+/* Data Input
+ * --------------------------------------------- */
+input{
+	text-align:center;
+}
+
+/* Headings
+ ----------------------------------------------- */
+h1 {
+    margin: .75em 0 0;
+    font-size: 200%;
+    color: #ad9;
+}
+h1  sub, h3 sup {
+	font-size:60%;
+}
+
+h2 {
+    margin: 1.5em 0 .75em;
+    font: bold 78% / 1.4em "Junction", "Trebuchet MS", Trebuchet, Arial, Verdana, Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #777;
+}
+h3{
+    padding: 0;
+    font-size: 140%;
+    line-height: 1.4em;
+    color: #ad9;
+	margin:15px 0 8px;
+}
+/* Footer
+ ----------------------------------------------- */ #footer {
+    width: 660px;
+    clear: both;
+    margin: 0 auto;
+} #footer hr {
+    display: none;
+} #footer p {
+    margin: 0;
+    padding-top: 33px;
+	color: #555;
+	border-top: 1px dotted #444;
+    font: 78% / 1.6em "Junction", "Trebuchet MS", Trebuchet, Verdana, Sans-serif;
+    letter-spacing: .1em;
+}
+
+/* File Upload Messages
+ -------------------------------------------------*/.fileUploadMsg {
+	padding: 3px;
+	margin: 0 auto 15px auto;
+	width: 700px;
+	background-color:#ad9;
+	font-weight: bold;
+	color:#000;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+fieldset{
+	border: dotted 1px #333;
+	padding:0 5px 10px 5px;
+}
+
+/* Making Buttons Pretty
+ --------------------------------------------------*/.button{
+	padding:3px 65px;
+	background-color:#9ad;
+	border:0;
+	color:#000;
+	font-weight:bolder;
+	font-size:100%;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+.button:hover{
+	background-color:#ad9;
+	border: dotted 1px #a7a;
+	font-size: 105%;
+}
